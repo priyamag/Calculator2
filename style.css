@@ -13,14 +13,22 @@ table{
     margin: auto;
     grid-area: hd
 }
-input {
+input[type="button"] {
     grid-area: lss;
     background-color: black;
    background-color: lightgreen;
         border-radius: 90px;
         font-size: 20px;
-       height: 58px;
-       width: 102px;
+       height:59px ;
+       width: 100px;
+    }
+    input[type="text"]{
+        background-color: lightgreen;
+        border-radius: 90px;
+        font-size: 20px;
+        border: black 1px solid;
+        width: 400px;
+        height: 48px;
     }
 body{
     background-color: black;
