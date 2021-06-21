@@ -1,0 +1,44 @@
+.container{
+    text-align: center;
+margin-top: 23px;
+background-color: tomato;
+grid-template-columns: gh;
+border-radius: 100px;
+height: 500px;
+width: 700px;
+margin: auto;
+
+}
+table{
+    margin: auto;
+    grid-area: hd
+}
+input {
+    grid-area: lss;
+    background-color: black;
+   background-color: lightgreen;
+        border-radius: 90px;
+        font-size: 20px;
+       height: 58px;
+       width: 102px;
+    }
+body{
+    background-color: black;
+}
+
+.calculator{
+    padding: 23px;
+    border: radius 53px; 
+    grid-area: rss;
+}
+.calc{
+    text-align: center;
+    margin-top: 23px;
+    grid-area: ft;
+}
+@media only screen and (max-width:1200px)
+{
+    .container{
+        grid-template-areas: 'hd' 'lss' 'is' 'ft' 'rss';
+    }
+}
